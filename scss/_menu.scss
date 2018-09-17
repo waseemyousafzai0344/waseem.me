@@ -96,7 +96,7 @@
         //slide from bottom 
         &.show{
 
-            transform: translate3d(0, 0, 0);
+            transform: translate3d(0,0, 0);
         }
 
         .portrait{
@@ -111,13 +111,13 @@
 
     .nav-item{
 
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(60px, 0, 0);
         @include easeOut;
 
-        //slide from bottom 
+        //slide from right 
         &.show{
 
-            transform: translate3d(600px, 0, 0);
+            transform: translate3d(0, 0, 0);
         }
         &.current > a
         {

@@ -1,10 +1,15 @@
 // Select Domcuments items
-const menuBtn = document.querySelector('.menu-btn');
-const menu = document.querySelector('.menu');
-const menuNav = document.querySelector('.menu-nav');
-const menuBranding = document.querySelector('.menu-branding');
+const menuBtn = document.querySelector
+('.menu-btn');
+const menu = document.querySelector
+('.menu');
+const menuNav = document.querySelector
+('.menu-nav');
+const menuBranding = document.querySelector
+('.menu-branding');
 
-const navItems = document.querySelectorAll('.nav-items');
+const navItems = document.querySelectorAll
+('.nav-items');
 
 //set initial state of menu
 
@@ -18,7 +23,7 @@ function toggleMenu() {
         menu.classList.add('show');
         menuNav.classList.add('show');
         menuBranding.classList.add('show');
-        navItems.forEach(item => item.classList>add('show'));
+        navItems.forEach(item => item.classList.add('show'));
     
  //set menu state
     showMenu = true;
